@@ -1,0 +1,16 @@
+{
+  "name": "alexa-skill-p2p-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/universal-controller/alexa-skill-api",
+  "author": "Daniel Luz",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "ask-sdk-core": "^2.8.0",
+    "ask-sdk-model": "^1.28.0"
+  }
+}

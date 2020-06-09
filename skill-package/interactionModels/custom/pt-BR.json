@@ -1,0 +1,38 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "meu controle",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Command_OpenBrowser",
+                    "slots": [],
+                    "samples": [
+                        "abrir navegador",
+                        "abrir chrome",
+                        "iniciar chrome",
+                        "começar chrome",
+                        "abra o chrome",
+                        "abra o navegador"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}

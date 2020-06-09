@@ -1,0 +1,42 @@
+{
+    "manifest": {
+        "publishingInformation": {
+            "locales": {
+                "en-US": {
+                    "name": "my remote",
+                    "summary": "Sample skill for peer to peer communication",
+                    "description": "Sample Full Description",
+                    "examplePhrases": [
+                        "Alexa, open my remote",
+                        "Ask my remote to open browser",
+                        "Open browser using my remote"
+                    ],
+                    "keywords": []
+                },
+                "pt-BR": {
+                    "name": "meu controle",
+                    "summary": "Skill base para fazer comunicação peer to peer",
+                    "description": "Sample Full Description",
+                    "examplePhrases": [
+                        "Alexa abra meu controle",
+                        "Peça meu controle para abrir o navegador",
+                        "Abra o navegador usando meu controle"
+                    ],
+                    "keywords": []
+                }
+            },
+            "isAvailableWorldwide": true,
+            "testingInstructions": "Sample Testing Instructions.",
+            "category": "KNOWLEDGE_AND_TRIVIA",
+            "distributionCountries": []
+        },
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "uri": "ask-custom-p2p-default"
+                }
+            }
+        },
+        "manifestVersion": "1.0"
+    }
+}
